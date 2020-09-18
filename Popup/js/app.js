@@ -9,6 +9,6 @@ function pageOpen() {
 
 document.getElementById("close").addEventListener("click", () => {
     if (document.getElementById("popup").style.display = "block")
-        document.getElementById("popup").style.display = "none"
+        document.getElementById("popup").style.display = "none";
 });
 

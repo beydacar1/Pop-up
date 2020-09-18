@@ -2,8 +2,10 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     min-width: 100%;
     height: 100%;
+    position: relative;
 }
 .maintext{
     color:#000;
@@ -16,6 +18,7 @@ body{
     height: 400px;
     background-color: rgb(31, 59, 216);
     display: none;
+    position: absolute;
 }
 .text{
     width: 100%;
@@ -28,11 +31,13 @@ body{
     font-size: 20px;
     font-weight: 600;
     color:#fff;
-    
 
 }
 #close {
-    float: right;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute ;
 }
 img{
     width: 20px;
